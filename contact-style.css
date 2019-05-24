@@ -1,0 +1,105 @@
+.whole{
+    background-color: #fdfff5;
+    border-style: solid;
+    border-color: black;
+    padding: 0;
+    width: 1500px;
+    height: 1000px;
+    
+    position:fixed;
+    
+}
+
+
+.header{
+    background-color:rgb(0, 119, 128);; 
+    width: 1495px;
+    height: 50px;
+    margin: 0;
+    padding: 0px;
+    border: 3.5px solid rgb(58, 58, 58);
+    position:relative;
+   
+    
+    
+    
+
+}
+h1{
+    text-align: center;
+    line-height: 5px;
+}
+.nav{
+    background-color:white; 
+    list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-style: solid;
+    width: 1495px;
+    
+    border-color: lightgray;
+}
+.nav li {
+    display:inline-block ;
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+}
+input[type=text ]#fname,#mail{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  textarea{
+    display: inline-block;
+    width: 100%;
+    background-color: beige;
+
+  }
+        
+  input[type=submit] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  
+  
+ 
+  
+  .relative1{
+
+    position: relative;
+    left: 300px;
+    top: 35px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+
+  }
+  .footer {
+   
+    position: fixed;
+    left: 10px;
+    bottom: 2px;
+    width: 1500px;
+    background-color:darkgray;
+    color: black;
+    
+    
+ } 
+ #copy{
+    text-align: center
+}
